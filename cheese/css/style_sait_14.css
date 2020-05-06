@@ -948,15 +948,8 @@ input:-ms-input-placeholder {
 		font-size: 27px;
 	}
 	.hot-produkt{
-		min-width: 100%;
-		margin: 20px;
-		justify-content: center;
-	}
-	.produkt{
-		border: none;
-		height: 200px;
-		width: 250px;
-		margin: 5px 5px;
+		min-width: 80%;
+		justify-content: space-between;
 	}
 	.choose{
 		width: 80%;
@@ -966,5 +959,11 @@ input:-ms-input-placeholder {
 	}
 	.large{
 		padding-bottom: 10px;
+	}
+}
+@media screen and (max-device-width: 505px){
+		.produkt{
+			height: 70px;
+			width: 120px;
 	}
 }
