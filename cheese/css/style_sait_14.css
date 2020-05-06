@@ -1,4 +1,6 @@
 body{
+	-webkit-font-family: Сomic Sans MS;
+	    -ms-font-family: Сomic Sans MS;
 	font-family: Lifehack Basic;
 	height: 100%;
 	width: 100%;
@@ -571,6 +573,11 @@ input:-ms-input-placeholder {
 		position: fixed;
 	}
 }
+@media screen and (max-device-width: 580px){
+	.menu-link{
+		margin-bottom: 20px;
+	}
+}
 /*@media screen and (max-height: 512px){
 	.main-information{
 		margin-top: 0;
@@ -938,13 +945,18 @@ input:-ms-input-placeholder {
 	#produkt h1{
 		margin-right: 20px;
 		margin-left: 20px;
+		font-size: 27px;
 	}
 	.hot-produkt{
-		min-width: 56%;
+		min-width: 100%;
+		margin: 20px;
+		justify-content: center;
 	}
 	.produkt{
-		height: 250px;
-		width: 300px;
+		border: none;
+		height: 200px;
+		width: 250px;
+		margin: 5px 5px;
 	}
 	.choose{
 		width: 80%;
